@@ -1,0 +1,242 @@
+/*fonts links*/
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf),
+        url(../fonts/Poppins-Bold.ttf),
+        url(../fonts/Roboto-Regular.ttf),
+        url(../fonts/Roboto-Bold.ttf),
+}
+
+/*common css start*/
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --green: #21B573;
+    --orange: #FD511A;
+    --blue: #56548C;
+    --poppins: "Poppins", sans-serif;
+    --roboto: "Roboto", sans-serif;
+}
+
+body {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.common_padding {
+    padding: 0 0 60px;
+}
+
+.btn_common {
+    background-color: #21B573;
+    color: var(--white);
+    border-radius: 33px;
+    font-family: var(--roboto);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn_common:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.feature_text h2 {
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+
+/*common css end*/
+/*header start*/
+header {
+    padding: 35px 0;
+    background-color: #F0FFF0;
+}
+
+.nav_menu li {
+    padding-right: 45px;
+}
+
+.nav_menu li:first-child {
+    padding-left: 0;
+}
+
+.nav_menu li a {
+    color: var(--black);
+    border-bottom: 1px solid transparent;
+}
+
+.nav_menu li a:hover {
+    color: var(--orange);
+    border-bottom: 1px solid var(--orange);
+}
+
+.menu_btn {
+    padding: 12px 28px;
+}
+
+.menu_btn:hover {}
+
+/*header end*/
+/*banner start*/
+.banner {
+    background-color: #F0FFF0;
+}
+
+.banner_wrapper h6 {
+    color: var(--orange);
+}
+
+.banner_wrapper h1 {
+    margin: 10px 119px 20px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.banner_wrapper h1 .green {
+    color: var(--green);
+}
+
+.banner_wrapper p {
+    line-height: 36px;
+    margin-bottom: 15px;
+}
+
+.banner_btn {
+    padding: 12px 36px;
+}
+
+
+/*banner end*/
+/*feature start*/
+.feature {}
+
+.feature_wrapper {
+    margin-top: 40px;
+    padding: 55px 0 50px;
+    background-color: #F8FFFB;
+    border-radius: 10px;
+    transition: 0.33s linear;
+}
+
+.feature_wrapper:hover {
+    background-color: #fff;
+    box-shadow: 0 10px 40px 0 #0000001A;
+}
+
+/*feature end*/
+/*courses start*/
+.courses {
+    padding: 40px 0;
+}
+
+.courses h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.courses_wrapper {
+    margin-top: 60px;
+    box-shadow: 0px 10px 40px 0px #0000001A;
+    padding: 25px 20px 30px;
+    border-radius: 10px;
+}
+
+.courses_wrapper .courses_img {
+    margin-bottom: 20px;
+}
+
+.courses_text h2 {
+    font-size: 24px;
+}
+
+.courses_text p {
+    margin: 5px 0 20px;
+}
+
+.courses_btn {
+    padding: 8px 28px;
+    margin-bottom: 35px;
+}
+
+.courses_footer ul {
+    margin: 0;
+}
+
+.courses_footer ul li p {
+    font-weight: 500;
+    margin: 0;
+}
+
+.courses_footer ul li i {
+    font-size: 24px
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 1px;
+}
+
+.courses_footer ul li img {
+    height: 24px;
+    width: 24px;
+}
+
+/*courses end*/
+/*testimonial start*/
+.testimonial {
+    padding: 40px 0 100px;
+}
+
+.testimonial h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.testimonial .carousel_text p {
+    color: var(--black);
+    line-height: 30px;
+}
+
+/*testimonial end*/
+/*footer start*/
+footer {
+    background-color: var(--black);
+    padding: 55px 0 30px !important;
+    line-height: 30px;
+}
+
+footer p {
+    color: #fff !important;
+    line-height: 30px;
+}
+
+.footer_links h2 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+footer ul li a {
+    margin-bottom: 8px;
+    display: block;
+    text-decoration: none;
+    color: #fff !important;
+}
+
+.footer_bottom {
+    padding: 40px 0 0;
+}
+
+.footer_bottom a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*footer end*/
