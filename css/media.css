@@ -13,7 +13,7 @@
         padding: 10px 0;
     }
 
-    .w-100 {
+    .b_img {
         width: 88% !important;
     }
 
@@ -410,3 +410,4 @@
 /*Extra Extra large devices (large desktops, 1400px and up)*/
 
 @media (min-width: 1400px) {}
+
